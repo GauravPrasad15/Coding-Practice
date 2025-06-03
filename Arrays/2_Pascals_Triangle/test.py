@@ -43,9 +43,7 @@ class Solution:
                         
 
 
-class main():
+if __name__ == "__main__":
     solution = Solution()
     n = 5
     print(solution.generate_pascals_triangle(n))
-
-main()

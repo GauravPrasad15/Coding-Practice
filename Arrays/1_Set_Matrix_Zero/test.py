@@ -32,9 +32,7 @@ class Solution:
                         
 
 
-class main():
+if __name__ == "__main__":
     solution = Solution()
-    List = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
-    solution.setZeroes(List)
-
-main()
+    matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
+    solution.setZeroes(matrix)
